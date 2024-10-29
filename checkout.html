@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova</title>
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <!-- OWL -->
+    <link rel="stylesheet" href="assets/vendors/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendors/owl/owl.theme.default.min.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="assets/vendors/Font Awesome/all.min.css">
+    <!-- BOOTSTRAP RTL -->
+    <link rel="stylesheet" href="assets/vendors/Bootstrap/bootstrap.rtl.min.css">
+    <!-- STYLING -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <nav class="container navbar navbar-expand-lg">
+            <ul class="navbar-nav right-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">من نحن</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        منتجاتنا
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">تواصل معنا</a>
+                </li>
+            </ul>
+            <div class="LOGO">
+                <a href="#">
+                    <img src="assets/imgs/logo.png" alt="Logo Here" class="img-fluid">
+                </a>
+            </div>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item cart">
+                    <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-regular fa-heart"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-regular fa-user"></i></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        AR
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="sec-checkout-1 mt-10 mb-10">
+            <div class="container">
+                <p class="color-placeholder"> سلة المشتريات / <span class="text-dark">اتمام الطلب</span> / تأكيد الطلب
+                </p>
+                <h3 class="mt-5">الفاتورة والشحن</h3>
+                <div class="row justify-content-between">
+                    <div class="col-md-4">
+                        <label>الاسم الأول <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control mb-5">
+                        <label>اسم العائلة <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control mb-5">
+                        <label>المحافظة <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control mb-5">
+                        <label>المدينة/المنطقة <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control mb-5">
+                        <label>العنوان <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control mb-5">
+                        <label>منزل / مبني / طابق / شقة<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control mb-5">
+                        <label>الشارع <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control mb-5">
+                        <label>رقم الهاتف <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control mb-5">
+                        <label>البريد الالكتروني<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control mb-5">
+                        <label>ملاحظة للطلب (اختياري)</label>
+                        <textarea type="text" class="form-control mb-5" style="height: 300px;"></textarea>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="total-info">
+                            <div class="text-center">
+                                <h3>طلبك</h3>
+                            </div>
+                            <hr>
+                            <div class="w-75 m-auto">
+                                <div class="d-flex justify-content-between">
+                                    <p class="m-0 mt-3">المنتج</p>
+                                    <p class="m-0 mt-3"> المجموع</p>
+                                </div>
+                                <hr>
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5 col-8 checkout-item item">
+                                            <img src="assets/imgs/home-1.jpeg" class="img-fluid">
+                                            <button class="btn remove-item"><i class="fa-solid fa-xmark"></i></button>
+                                        </div>
+                                        <div class="col-md-6 col-4">
+                                            <p>فستان سهرة بناتي مقاس 10</p>
+                                            <div class="input-group w-75">
+                                                <button type="button" class="plus">+</button>
+                                                <input type="text"
+                                                    class="form-control form-control-sm bg-white counter-input p-0 m-0"
+                                                    value="0">
+                                                <button type="button" class="minus">-</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="w-100 text-end">810 SAR</p>
+                                </div>
+                                <hr>
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5 col-8 checkout-item item">
+                                            <img src="assets/imgs/home-1.jpeg" class="img-fluid">
+                                            <button class="btn remove-item"><i class="fa-solid fa-xmark"></i></button>
+                                        </div>
+                                        <div class="col-md-6 col-4">
+                                            <p>فستان سهرة بناتي مقاس 10</p>
+                                            <div class="input-group w-75">
+                                                <button type="button" class="plus">+</button>
+                                                <input type="text"
+                                                    class="form-control form-control-sm bg-white counter-input p-0 m-0"
+                                                    value="0">
+                                                <button type="button" class="minus">-</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="w-100 text-end">810 SAR</p>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <p>المجموع</p>
+                                    <p>1620 SAR</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p>الشحن</p>
+                                    <p>50 SAR</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p>الخصم</p>
+                                    <p>20 SAR</p>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <p class="fs-5 fw-semibold">الاجمالي</p>
+                                    <p class="fs-5 fw-semibold">1600 SAR</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <h4 class="fw-bold">الدفع</h4>
+                            <h4 class="fw-light">اختر طريقة الدفع</h4>
+                            <input type="radio" name="payment_method" id="payment_method">
+                            <label class="mt-3 fw-semibold"><i class="fa-solid fa-money-bills fs-5 mx-2"></i>
+                                الدفع
+                                عند
+                                الاستلام</label>
+                            <hr>
+                            <input checked type="radio" name="payment_method" id="payment_method">
+                            <label class="credit w-50 mt-3 fw-semibold"><i
+                                    class="fa-regular fa-credit-card fs-5 mx-2"></i>Credit
+                                card
+                            </label>
+                            <small style="font-size: 12px; display: block;" class="mb-4">الدفع بواسطة (Master
+                                card/Visa/Amex)</small>
+
+                            <div class="w-75">
+                                <label>رقم البطاقة</label>
+                                <input type="text" class="form-control mb-4" placeholder="أدخل رقم بطاقتك">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <label>تاريخ الانتهاء</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <label>CVV</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" placeholder="MM/YY">
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" placeholder="CVV">
+                                    </div>
+                                </div>
+                                <label>الاسم علي البطاقة</label>
+                                <input type="text" class="form-control mb-4" placeholder="أدخل اسمك علي البطاقة ">
+                            </div>
+                            <hr>
+                            <input type="radio" name="payment_method" id="payment_method">
+                            <label class="credit w-50 mt-3 fw-semibold"><i
+                                    class="fa-brands fa-cc-amex fs-5 mx-2"></i>Debit
+                                card
+                            </label>
+                            <small style="font-size: 12px; display: block;" class="">الدفع بواسطة (Knet
+                                Cards)</small>
+                            <hr>
+                            <input type="radio" name="payment_method" id="payment_method">
+                            <label class="credit w-50 mt-3 fw-semibold"><i
+                                    class="fa-brands fa-apple-pay fs-5 mx-2"></i>Apple
+                                Pay</label>
+                            <small style="font-size: 12px; display: block;">ينطبق فقط علي متصفح
+                                سفاري</small>
+                        </div>
+                        <div class="row">
+                            <button class="myBtn final-checkout mt-3">
+                                تأكيد الطلب
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="footer-divs col-md-3 col-sm-6 mb-3">
+                    <div class="text-center">
+                        <p class="footer-title">تابعنا علي الانستجرام</p>
+                        <div class="bg-white p-4">
+                            <img src="assets/imgs/insta.png" class="img-fluid">
+                            <p class="text-end fw-bold m-0">@nova.boutiqe.gcc</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-divs col-md-3 col-sm-6 mb-3">
+                    <div class="text-center">
+                        <p class="footer-title">موقعنا</p>
+                        <div class="bg-white p-4">
+                            <img src="assets/imgs/map.png" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-divs col-md-3 col-sm-6 mb-3">
+                    <div class="text-center">
+                        <p class="footer-title">تواصل معنا</p>
+                        <div class="bg-white p-4 color-main">
+                            <p><i class="fa-solid fa-phone-flip"></i> الهاتف : + 966 57 446 5591</p>
+                            <p><i class="fa-solid fa-location-dot"></i> العنوان : المملكة العربية السعودية , الرياض
+                            </p>
+                            <p><i class="fa-solid fa-envelope"></i> info@example.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-divs col-md-3 col-sm-6 mb-3">
+                    <div class="text-center">
+                        <p class="footer-title">حمل التطبيق الأن</p>
+                        <div class="bg-white p-4">
+                            <img src="assets/imgs/google.png" class="w-75">
+                            <img src="assets/imgs/app.png" class="w-75">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row align-items-center">
+                    <div class="col-sm-6">
+                        <p class="text-start color-main fs-5 m-0">جميع الحقوق محفوظة 2024© </p>
+                    </div>
+                    <div class="col-sm-6 ">
+                        <div class="text-end">
+                            <a class="social-icons" href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a class="social-icons" href="#">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a class="social-icons" href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/vendors/Bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/jQuery/jquery-3.7.1.min.js"></script>
+    <script src="assets/vendors/owl/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
