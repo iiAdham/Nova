@@ -12,6 +12,7 @@
   --third-color: #763B6766;
   --sub-text: #1E1E1E;
   --success: #35DD3B;
+  --place-holder: #B4B4B4;
 }
 
 
@@ -296,8 +297,9 @@ footer {
   padding: 13px;
 }
 
+/* ========================================== */
 /* CONTACT US */
-
+/* ========================================== */
 
 .sec-contact-1 {
   position: relative;
@@ -362,4 +364,123 @@ footer {
 
 .order-9 {
   order: 9;
+}
+
+/* ========================================== */
+/* PRODUCT DETAILS */
+/* ========================================== */
+
+.mt-10 {
+  margin-top: 100px;
+}
+
+.mb-10 {
+  margin-bottom: 100px;
+}
+
+.product-img {
+  height: 99%;
+}
+
+.product-img img {
+  border-radius: 15px;
+}
+
+.prodDetailsIcons a i {
+  color: var(--main-color);
+  background: #CB82B933;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.color-placeholder {
+  color: var(--place-holder);
+}
+
+.prod-info {
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.color {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: none;
+}
+
+.green-color {
+  background: #5F774B;
+}
+
+.beige-color {
+  background: #F3B58E;
+}
+
+.red-color {
+  background: #861E23;
+}
+
+.offwhite-color {
+  background: #DAD0BF;
+}
+
+.color-active {
+  position: relative;
+  border: 5px solid white;
+  outline: 5px solid #5F7748;
+}
+
+.color-active::after {
+  position: absolute;
+  color: white;
+  content: "\f00c";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 25%;
+}
+
+.radio-bg {
+  background: #F3F3F3;
+  border-radius: 8px;
+}
+
+.radio-bg label {
+  color: var(--place-holder);
+}
+
+.radio-bg-active {
+  background: #EDF0F8;
+}
+
+.radio-bg-active label {
+  color: #3A4980;
+}
+
+.buy {
+  background: #763B67B2;
+}
+
+.counter {
+  background: #F3F3F3;
+}
+
+/* ========================================== */
+/* CONFIRM ORDER */
+/* ========================================== */
+.color-placeholder span {
+  color: black;
+}
+
+.done-icon i {
+  font-size: 170px;
+}
+
+.home-btn {
+  background: #763B67B2;
+  border-radius: 6px;
 }
