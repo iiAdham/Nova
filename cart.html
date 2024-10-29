@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova</title>
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <!-- OWL -->
+    <link rel="stylesheet" href="assets/vendors/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendors/owl/owl.theme.default.min.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="assets/vendors/Font Awesome/all.min.css">
+    <!-- BOOTSTRAP RTL -->
+    <link rel="stylesheet" href="assets/vendors/Bootstrap/bootstrap.rtl.min.css">
+    <!-- STYLING -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <nav class="container navbar navbar-expand-lg">
+            <ul class="navbar-nav right-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">من نحن</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        منتجاتنا
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">تواصل معنا</a>
+                </li>
+            </ul>
+            <div class="LOGO">
+                <a href="#">
+                    <img src="assets/imgs/logo.png" alt="Logo Here" class="img-fluid">
+                </a>
+            </div>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item cart">
+                    <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-regular fa-heart"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-regular fa-user"></i></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        AR
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="sec-cart-1 mt-10 mb-10">
+            <div class="container">
+                <p class="color-placeholder"><span class="text-dark">سلة المشتريات</span> / اتمام الطلب / تأكيد الطلب
+                </p>
+
+                <div class="row justify-content-between">
+                    <div class="cart-right-side col-md-6 mb-4">
+                        <h3 class="fw-bold mb-5">سلة المشتريات <span class="fw-semibold">(3 عناصر)</span></h3>
+                        <div class="item mb-2">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="assets/imgs/home-1.jpeg" class="img-fluid">
+                                </div>
+                                <div class="col-8">
+                                    <div class="cart-item-info mb-4">
+                                        <p class="mb-0 fw-bold">فستان سهرة بناتي</p>
+                                        <p class="item-info">فستان 3 قطع (اكسسوار شعر - قفازات - حزام)</p>
+                                    </div>
+                                    <div class="cart-item-options d-flex mt-5 align-items-center">
+                                        <label>المقاس:</label>
+                                        <select class="w-20 me-lg-3 me-0">
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                        </select>
+                                        <label>اللون:</label>
+                                        <div class="d-flex">
+                                            <button
+                                                class="color green-color color-active-sm color-size-sm ms-1 me-1"></button>
+                                            <button class="color beige-color color-size-sm  me-1"></button>
+                                            <button class="color red-color color-size-sm  me-1"></button>
+                                            <button class="color offwhite-color color-size-sm "></button>
+                                        </div>
+                                        <label>العدد:</label>
+                                        <div class="input-group w-20">
+                                            <button type="button" class="plus">+</button>
+                                            <input type="text"
+                                                class="form-control form-control-sm bg-white counter-input p-0 m-0"
+                                                value="0">
+                                            <button type="button" class="minus">-</button>
+                                        </div>
+                                    </div>
+                                    <div class="item-price d-flex justify-content-between mt-5">
+                                        <p class="m-0 p-3">السعر: 270 SAR</p>
+                                        <button class="btn text-danger p-3">حذف</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="item mb-2">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="assets/imgs/home-1.jpeg" class="img-fluid">
+                                </div>
+                                <div class="col-8">
+                                    <div class="cart-item-info mb-4">
+                                        <p class="mb-0 fw-bold">فستان سهرة بناتي</p>
+                                        <p class="item-info">فستان 3 قطع (اكسسوار شعر - قفازات - حزام)</p>
+                                    </div>
+                                    <div class="cart-item-options d-flex mt-5 align-items-center">
+                                        <label>المقاس:</label>
+                                        <select class="w-20 me-lg-3 me-0">
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                        </select>
+                                        <label>اللون:</label>
+                                        <div class="d-flex">
+                                            <button
+                                                class="color green-color color-active-sm color-size-sm ms-1 me-1"></button>
+                                            <button class="color beige-color color-size-sm  me-1"></button>
+                                            <button class="color red-color color-size-sm  me-1"></button>
+                                            <button class="color offwhite-color color-size-sm "></button>
+                                        </div>
+                                        <label>العدد:</label>
+                                        <div class="input-group w-20">
+                                            <button type="button" class="plus">+</button>
+                                            <input type="text"
+                                                class="form-control form-control-sm bg-white counter-input p-0 m-0"
+                                                value="0">
+                                            <button type="button" class="minus">-</button>
+                                        </div>
+                                    </div>
+                                    <div class="item-price d-flex justify-content-between mt-5">
+                                        <p class="m-0 p-3">السعر: 270 SAR</p>
+                                        <button class="btn text-danger p-3">حذف</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="item mb-2">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="assets/imgs/home-1.jpeg" class="img-fluid">
+                                </div>
+                                <div class="col-8">
+                                    <div class="cart-item-info mb-4">
+                                        <p class="mb-0 fw-bold">فستان سهرة بناتي</p>
+                                        <p class="item-info">فستان 3 قطع (اكسسوار شعر - قفازات - حزام)</p>
+                                    </div>
+                                    <div class="cart-item-options d-flex mt-5 align-items-center">
+                                        <label>المقاس:</label>
+                                        <select class="w-20 me-lg-3 me-0">
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                        </select>
+                                        <label>اللون:</label>
+                                        <div class="d-flex">
+                                            <button
+                                                class="color green-color color-active-sm color-size-sm ms-1 me-1"></button>
+                                            <button class="color beige-color color-size-sm  me-1"></button>
+                                            <button class="color red-color color-size-sm  me-1"></button>
+                                            <button class="color offwhite-color color-size-sm "></button>
+                                        </div>
+                                        <label>العدد:</label>
+                                        <div class="input-group w-20">
+                                            <button type="button" class="plus">+</button>
+                                            <input type="text"
+                                                class="form-control form-control-sm bg-white counter-input p-0 m-0"
+                                                value="0">
+                                            <button type="button" class="minus">-</button>
+                                        </div>
+                                    </div>
+                                    <div class="item-price d-flex justify-content-between mt-5">
+                                        <p class="m-0 p-3">السعر: 270 SAR</p>
+                                        <button class="btn text-danger p-3">حذف</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="cart-left-side col-md-5 mb-4">
+                        <div class="total-info">
+                            <div class="text-center">
+                                <h3>اجمالي سلة المشتريات</h3>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                                <p>المجموع</p>
+                                <p>1620 SAR</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>الشحن</p>
+                                <p>يحدد عند اختيار العنوان</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>الخصم</p>
+                                <p>20 SAR</p>
+                            </div>
+                            <div class="w-75 m-auto">
+                                <hr>
+                            </div>
+                            <div class="w-75 m-auto d-flex justify-content-between">
+                                <p class="fs-5 fw-semibold">الاجمالي</p>
+                                <p class="fs-5 fw-semibold">1600 SAR</p>
+                            </div>
+                            <div class="w-75 m-auto">
+                                <button class="myBtn w-100 completeOrderBtn">اتمام الطلب</button>
+                            </div>
+                        </div>
+                        <div class="d-flex w-75 m-auto mt-4">
+                            <input type="text" class="form-control w-75 h-25 me-2 mb-2" placeholder="أدخل كود الخصم">
+                            <button class="myBtn completeOrderBtn p-0 mb-2 w-100">تطبيق كود الخصم</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="footer-divs col-md-3 col-sm-6 mb-3">
+                    <div class="text-center">
+                        <p class="footer-title">تابعنا علي الانستجرام</p>
+                        <div class="bg-white p-4">
+                            <img src="assets/imgs/insta.png" class="img-fluid">
+                            <p class="text-end fw-bold m-0">@nova.boutiqe.gcc</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-divs col-md-3 col-sm-6 mb-3">
+                    <div class="text-center">
+                        <p class="footer-title">موقعنا</p>
+                        <div class="bg-white p-4">
+                            <img src="assets/imgs/map.png" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-divs col-md-3 col-sm-6 mb-3">
+                    <div class="text-center">
+                        <p class="footer-title">تواصل معنا</p>
+                        <div class="bg-white p-4 color-main">
+                            <p><i class="fa-solid fa-phone-flip"></i> الهاتف : + 966 57 446 5591</p>
+                            <p><i class="fa-solid fa-location-dot"></i> العنوان : المملكة العربية السعودية , الرياض
+                            </p>
+                            <p><i class="fa-solid fa-envelope"></i> info@example.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-divs col-md-3 col-sm-6 mb-3">
+                    <div class="text-center">
+                        <p class="footer-title">حمل التطبيق الأن</p>
+                        <div class="bg-white p-4">
+                            <img src="assets/imgs/google.png" class="w-75">
+                            <img src="assets/imgs/app.png" class="w-75">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row align-items-center">
+                    <div class="col-sm-6">
+                        <p class="text-start color-main fs-5 m-0">جميع الحقوق محفوظة 2024© </p>
+                    </div>
+                    <div class="col-sm-6 ">
+                        <div class="text-end">
+                            <a class="social-icons" href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a class="social-icons" href="#">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a class="social-icons" href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/vendors/Bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/jQuery/jquery-3.7.1.min.js"></script>
+    <script src="assets/vendors/owl/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
