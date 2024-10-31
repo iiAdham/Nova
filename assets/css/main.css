@@ -75,10 +75,38 @@ header {
   min-width: 100%;
 }
 
+.h-400px {
+  height: 400px;
+}
+
+.h-400px img {
+  object-fit: cover;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: var(--main-color);
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  top: 25%;
+  bottom: auto;
+}
+
+@media (max-width:425px) {
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    padding: 10px;
+  }
+}
 
 .hero-info {
   background: linear-gradient(0deg, rgba(220, 110, 192, 0.25) 52.59%, rgba(246, 222, 240, 0.25) 100%);
-
+  z-index: 333;
 }
 
 .hero-title {
@@ -198,6 +226,12 @@ header {
 }
 
 /* SECTION 3 */
+.sec-3 .carousel-item-next,
+.sec-3 .carousel-item-prev,
+.sec-3 .carousel-item.active {
+  display: flex;
+}
+
 .text-image {
   color: var(--main-color);
   font-size: 45px;
