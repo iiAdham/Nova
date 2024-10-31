@@ -102,6 +102,10 @@ header {
   .carousel-control-prev-icon {
     padding: 10px;
   }
+
+  .h-400px img {
+    object-fit: fill;
+  }
 }
 
 .hero-info {
