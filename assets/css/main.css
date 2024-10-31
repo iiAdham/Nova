@@ -103,9 +103,6 @@ header {
     padding: 10px;
   }
 
-  .h-400px img {
-    object-fit: fill;
-  }
 }
 
 .hero-info {
