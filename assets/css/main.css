@@ -232,6 +232,15 @@ header {
   display: flex;
 }
 
+#carouselProducts {
+  cursor: grab;
+  user-select: none;
+}
+
+#carouselProducts.grabbing {
+  cursor: grabbing;
+}
+
 .text-image {
   color: var(--main-color);
   font-size: 45px;
